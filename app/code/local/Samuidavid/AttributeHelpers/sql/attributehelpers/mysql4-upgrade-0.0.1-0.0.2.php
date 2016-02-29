@@ -1,3 +1,3 @@
 <?php
 
-$this->updateAttribute('catalog_product', 'custom_att_code', 'note', 'This comment will be seen as a comment in the admin area of Magento underneath an attribute field...');
+$this->updateAttribute('catalog_product', 'custom_att_code', 'note', 'Use this upgrade script to overwrite the comment / note from original install script.');

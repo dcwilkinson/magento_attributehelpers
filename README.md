@@ -17,3 +17,5 @@ Can be applied when creating a custom attribute - just add 'note' as a parameter
     );
     $installer->addAttribute('catalog_category', 'custom_att_code', $attribute);
     $installer->endSetup();
+
+NOTE: I have also included an upgrade script (mysql4-upgrade-0.0.1-0.0.2.php) to demonstrate how you'd update a comment / note that already exists for an attribute. For this to take effect, ensure the current <version> in your config.xml file is set to the latest version. 
