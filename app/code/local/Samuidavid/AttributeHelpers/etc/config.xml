@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Samuidavid_AttributeHelpers>
+            <version>0.0.2</version>
+        </Samuidavid_AttributeHelpers>
+    </modules>
+    <global>
+        <resources>
+            <attributehelpers>
+                <setup>
+                    <module>Samuidavid_AttributeHelpers</module>
+                    <class>Mage_Eav_Model_Entity_Setup</class>
+                </setup>
+                <connection>
+                    <use>default_setup</use>
+                </connection>
+            </attributehelpers>
+        </resources>
+    </global>
+</config>
