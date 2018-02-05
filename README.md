@@ -1,6 +1,6 @@
-# Magento Attribute Helpers
+# Magento 1 Attribute Helpers
 
-Add or edit a comment / helper on custom or native Magento attributes.
+Add or edit a comment / helper on custom or native Magento 1 attributes.
 
     $this->updateAttribute('catalog_product', 'custom_att_code', 'note', 'This comment will be seen as a comment in the admin area of Magento underneath an attribute field...');
 
